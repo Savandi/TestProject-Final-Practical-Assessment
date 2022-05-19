@@ -1,18 +1,18 @@
-id: OlYtXHaho0qga1Y1J4JRpA
+id: rMHNhQz75km2YIMPyruERQ
 projectId: p4xUNTxQekC2rh39omKFuw
 projectName: Final-Practical-Assessment
-created: 2022-05-18T17:13:24.4799774Z
+created: 2022-05-19T03:55:17.0362392Z
 protocol: 1
 tests:
 - id: lkbmK8x5UkmKVNKtAS09vQ
   name: PlaceOrderTest
-  description: This test is to validate the user scenario for placing an order for the desired clothing item and proceeding with the checkout until verifying the billing address.
+  description: This test is to validate the user scenario for placing an order for the desired clothing item and proceeding with the checkout until verifying the billing address and completing the full order completion process.
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-05-16T10:15:19.0000000
-  modificationDate: 2022-05-18T17:11:47.0000000
+  modificationDate: 2022-05-19T03:55:17.0000000
   settings:
     automationAssistant: true
     appId: vK___0Q08k6wBla8Yml1rQ
