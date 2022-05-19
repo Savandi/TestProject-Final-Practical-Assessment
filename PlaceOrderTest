@@ -1,7 +1,7 @@
-id: rMHNhQz75km2YIMPyruERQ
+id: d7PfcUUioEGKBtdWuW4KJw
 projectId: p4xUNTxQekC2rh39omKFuw
 projectName: Final-Practical-Assessment
-created: 2022-05-19T03:55:17.0362392Z
+created: 2022-05-19T03:58:57.0755632Z
 protocol: 1
 tests:
 - id: lkbmK8x5UkmKVNKtAS09vQ
@@ -1110,7 +1110,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-05-17T18:57:23.0000000
-  modificationDate: 2022-05-17T20:16:37.0000000
+  modificationDate: 2022-05-19T03:58:52.0000000
   settings:
     automationAssistant: true
     appId: vK___0Q08k6wBla8Yml1rQ
@@ -2122,6 +2122,25 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[3]/div[2]/div[2]/div[1]/form/div/div/select
     priority: 2
+- id: T1Z2DjzOGkO8ha0xP3rdBw
+  name: Printed Dress1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+      							Printed Dress
+      						']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/h5/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
+    priority: 2
 - id: uHmJkzrZ80a-eUWUv5VKtQ
   name: Pink
   type:
@@ -2146,22 +2165,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[3]/div/div/div/div[4]/form/div/div[2]/div/fieldset[2]/div/ul/li[2]/a
     priority: 4
-- id: iWl91eeKk0GA4LswEN-xVQ
-  name: Add to cart
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: //span[. = 'Add to cart']
-    priority: 0
-  - name: XPATH
-    value: //div[3]/div/p//span
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/div/div[4]/form/div/div[3]/div/p/button/span
-    priority: 2
 - id: RA-_edBVzkqnJMIrUNoEeQ
   name: Dress Sizes
   type:
@@ -2181,6 +2184,22 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[3]/div/div/div/div[4]/form/div/div[2]/div/fieldset[1]/div/div/select
     priority: 3
+- id: iWl91eeKk0GA4LswEN-xVQ
+  name: Add to cart
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Add to cart']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/p//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/div/div[4]/form/div/div[3]/div/p/button/span
+    priority: 2
 - id: EvyJkTZ_6027OLCH5ALGOA
   name: 'Item Name '
   type:
@@ -2266,25 +2285,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[2]/div[4]/a/span
-    priority: 2
-- id: T1Z2DjzOGkO8ha0xP3rdBw
-  name: Printed Dress1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //a[. = '
-      							Printed Dress
-      						']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/h5/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div[2]/ul/li/div/div[2]/h5/a
     priority: 2
 - id: XR2sELcTBEuyAqbAP566xQ
   name: Summary Item Name
@@ -2375,397 +2375,32 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[3]/div/p[2]/a[1]/span
     priority: 2
-- id: 5eVFV_9r9E6lx8OY8ump5Q
-  name: email_create
+- id: eupcYJpya0qwN1QKU59HXg
+  name: Cart 1 Product
   type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#email_create'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='email_create']"
-    priority: 1
-  - name: XPATH
-    value: //div[2]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[2]/input
-    priority: 3
-- id: Es_xBTOXO0mARxjhQ3rHgQ
-  name: Create an account
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
     source: System
   locators:
   - name: XPATH
     value: >-
-      //span[. = '
-      								
-      								Create an account
-      							']
+      //a[. = '
+      			Cart
+      			1
+      			Product
+      			Products
+      			
+      																					$50.99
+      												
+      			(empty)
+      					']
     priority: 0
   - name: XPATH
-    value: //div[3]/button/span
+    value: //div[3]/div/a
     priority: 1
   - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[3]/button/span
+    value: /html/body/div/div[1]/header/div[3]/div/div/div[3]/div/a
     priority: 2
-- id: XkQIDAqNsESyrv_BEW0Wsw
-  name: customer_lastname
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#customer_lastname'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='customer_lastname']"
-    priority: 1
-  - name: XPATH
-    value: //div[3]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[3]/input
-    priority: 3
-- id: lOJoSdW_wkq_7jOZxpuqrw
-  name: passwd
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#passwd'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='passwd']"
-    priority: 1
-  - name: XPATH
-    value: //div[5]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[5]/input
-    priority: 3
-- id: 5WpEpqI7b0Kelw31yr1ywg
-  name: address1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#address1'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='address1']"
-    priority: 1
-  - name: XPATH
-    value: //p[4]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[4]/input
-    priority: 3
-- id: xYsUzVm0kkeloh2_mGqa1Q
-  name: city
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#city'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='city']"
-    priority: 1
-  - name: XPATH
-    value: //p[6]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[6]/input
-    priority: 3
-- id: M7iGVxNewUWbCetV0f6dOQ
-  name: postcode
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#postcode'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='postcode']"
-    priority: 1
-  - name: XPATH
-    value: //p[8]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[8]/input
-    priority: 3
-- id: cM01BasGfU2XNHH_fJI_2Q
-  name: phone_mobile
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#phone_mobile'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='phone_mobile']"
-    priority: 1
-  - name: XPATH
-    value: //p[13]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[13]/input
-    priority: 3
-- id: AFpVn0Cw0U6BU5HKRxsQxw
-  name: Logged In Name
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: //span[. = '{{randomFirstName}} {{randomLastName}}']
-    priority: 0
-  - name: XPATH
-    value: //nav/div//span
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a/span
-    priority: 2
-- id: 4bQTr6yFvU2dt69wqDJF1g
-  name: id_state
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#id_state'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='id_state']"
-    priority: 1
-  - name: XPATH
-    value: //p[7]//select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[7]/div/select
-    priority: 3
-- id: VaPxRDz0VkuPGLWYCYzlKw
-  name: customer_firstname
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='customer_firstname']"
-    priority: 0
-  - name: XPATH
-    value: //div[2]/input
-    priority: 1
-  - name: CSSSELECTOR
-    value: '#customer_firstname'
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[2]/input
-    priority: 3
-- id: FTKIE12bHEC61WqpvLUIMA
-  name: id_gender
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDg
-    name: Radio
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#id_gender2'
-    priority: 0
-  - name: XPATH
-    value: //div[2]/label//input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[1]/div[2]/label/div/span/input
-    priority: 2
-- id: zqLAulKEzUuERvvp_u9v2g
-  name: newsletter
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDk
-    name: Checkbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#newsletter'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='newsletter']"
-    priority: 1
-  - name: XPATH
-    value: //div[7]//input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[7]/div/span/input
-    priority: 3
-- id: G3a8GmhV0kqzcILgqILEVg
-  name: optin
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDk
-    name: Checkbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#optin'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='optin']"
-    priority: 1
-  - name: XPATH
-    value: //div[8]//input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[8]/div/span/input
-    priority: 3
-- id: poR5aXD1D0WbtD5Ct3JJUQ
-  name: days
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#days'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='days']"
-    priority: 1
-  - name: XPATH
-    value: //div[1]/div/select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[6]/div/div[1]/div/select
-    priority: 3
-- id: boTrxlIHAk2E9kYASN6aNA
-  name: months
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#months'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='months']"
-    priority: 1
-  - name: XPATH
-    value: //div[2]/div/select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[6]/div/div[2]/div/select
-    priority: 3
-- id: Ggzr8Guhc0qpboE2TjmcRw
-  name: years
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#years'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='years']"
-    priority: 1
-  - name: XPATH
-    value: //div[3]/div/select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[6]/div/div[3]/div/select
-    priority: 3
-- id: WCN6tFDXJU2wrJVdxFJdMQ
-  name: Register
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: //span[. = 'Register']
-    priority: 0
-  - name: XPATH
-    value: //div[4]/button/span
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[4]/button/span
-    priority: 2
-- id: 4zNgErm05kGDQ59prOcDtQ
-  name: company
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#company'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='company']"
-    priority: 1
-  - name: XPATH
-    value: //p[3]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[3]/input
-    priority: 3
-- id: pc_kFMWhikmwJpMdoaX8QA
-  name: other
-  type:
-    id: jUwODgyNjAyNzk2NTk2OTA
-    name: textarea
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#other'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='other']"
-    priority: 1
-  - name: XPATH
-    value: //textarea
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[10]/textarea
-    priority: 3
-- id: Es1SdT5S5Eqr5qY28DuRpA
-  name: phone
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#phone'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='phone']"
-    priority: 1
-  - name: XPATH
-    value: //p[12]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[12]/input
-    priority: 3
 - id: 5M_2ZIIl3Eu5B6_oo9ezVQ
   name: Delivery Address Name
   type:
@@ -2861,25 +2496,6 @@ elements:
   - name: XPATH
     value: //div[1]/ul/li[6]/span
     priority: 2
-- id: SlyQcFAEokGFSrcCKvxhmA
-  name: Country
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#id_country'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='{{country}}']"
-    priority: 1
-  - name: XPATH
-    value: //p[9]//select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[9]/div/select
-    priority: 3
 - id: 9tUK3DRyNkSIPxV60YQl_A
   name: Delivery Home Phone
   type:
@@ -2918,32 +2534,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[3]/div/div[3]/div[1]/ul/li[8]/span
     priority: 2
-- id: eupcYJpya0qwN1QKU59HXg
-  name: Cart 1 Product
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //a[. = '
-      			Cart
-      			1
-      			Product
-      			Products
-      			
-      																					$50.99
-      												
-      			(empty)
-      					']
-    priority: 0
-  - name: XPATH
-    value: //div[3]/div/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/header/div[3]/div/div/div[3]/div/a
-    priority: 2
 - id: ZcE-dpASHkqtMsd56-cvkQ
   name: Proceed to checkout2
   type:
@@ -2959,26 +2549,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div[2]/div/div[3]/div/form/p/button/span
-    priority: 2
-- id: WfNIkID0iUOvfL-USSUAeQ
-  name: Proceed to checkout3
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //span[. = '
-      								Proceed to checkout
-      								
-      							']
-    priority: 0
-  - name: XPATH
-    value: //p/button/span
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/div/div/form/p/button/span
     priority: 2
 - id: kyoYuQUvL0-YfCJWiFkodQ
   name: cgv
@@ -2999,6 +2569,26 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[3]/div/div/form/div/p[2]/div/span/input
     priority: 3
+- id: WfNIkID0iUOvfL-USSUAeQ
+  name: Proceed to checkout3
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //span[. = '
+      								Proceed to checkout
+      								
+      							']
+    priority: 0
+  - name: XPATH
+    value: //p/button/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/p/button/span
+    priority: 2
 - id: X4E1oZXJbE-uh0F37hL9AQ
   name: Pay by check (order processing will b...
   type:
@@ -3088,12 +2678,431 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a
     priority: 2
-projectParameters:
-- id: y6lrvDzmz0qL8po045xBvQ
-  name: countryCode
-  description: ''
-  value: 94
+- id: 5eVFV_9r9E6lx8OY8ump5Q
+  name: email_create
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#email_create'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='email_create']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[2]/input
+    priority: 3
+- id: Es_xBTOXO0mARxjhQ3rHgQ
+  name: Create an account
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //span[. = '
+      								
+      								Create an account
+      							']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/button/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/div[1]/form/div/div[3]/button/span
+    priority: 2
+- id: FTKIE12bHEC61WqpvLUIMA
+  name: id_gender
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDg
+    name: Radio
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#id_gender2'
+    priority: 0
+  - name: XPATH
+    value: //div[2]/label//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[1]/div[2]/label/div/span/input
+    priority: 2
+- id: VaPxRDz0VkuPGLWYCYzlKw
+  name: customer_firstname
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='customer_firstname']"
+    priority: 0
+  - name: XPATH
+    value: //div[2]/input
+    priority: 1
+  - name: CSSSELECTOR
+    value: '#customer_firstname'
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[2]/input
+    priority: 3
+- id: XkQIDAqNsESyrv_BEW0Wsw
+  name: customer_lastname
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#customer_lastname'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='customer_lastname']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[3]/input
+    priority: 3
+- id: lOJoSdW_wkq_7jOZxpuqrw
+  name: passwd
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#passwd'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='passwd']"
+    priority: 1
+  - name: XPATH
+    value: //div[5]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[5]/input
+    priority: 3
+- id: poR5aXD1D0WbtD5Ct3JJUQ
+  name: days
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#days'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='days']"
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div/select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[6]/div/div[1]/div/select
+    priority: 3
+- id: boTrxlIHAk2E9kYASN6aNA
+  name: months
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#months'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='months']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[6]/div/div[2]/div/select
+    priority: 3
+- id: Ggzr8Guhc0qpboE2TjmcRw
+  name: years
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#years'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='years']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/div/select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[6]/div/div[3]/div/select
+    priority: 3
+- id: zqLAulKEzUuERvvp_u9v2g
+  name: newsletter
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDk
+    name: Checkbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#newsletter'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='newsletter']"
+    priority: 1
+  - name: XPATH
+    value: //div[7]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[7]/div/span/input
+    priority: 3
+- id: G3a8GmhV0kqzcILgqILEVg
+  name: optin
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDk
+    name: Checkbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#optin'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='optin']"
+    priority: 1
+  - name: XPATH
+    value: //div[8]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[1]/div[8]/div/span/input
+    priority: 3
+- id: 4zNgErm05kGDQ59prOcDtQ
+  name: company
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#company'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='company']"
+    priority: 1
+  - name: XPATH
+    value: //p[3]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[3]/input
+    priority: 3
+- id: 5WpEpqI7b0Kelw31yr1ywg
+  name: address1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#address1'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='address1']"
+    priority: 1
+  - name: XPATH
+    value: //p[4]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[4]/input
+    priority: 3
+- id: xYsUzVm0kkeloh2_mGqa1Q
+  name: city
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#city'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='city']"
+    priority: 1
+  - name: XPATH
+    value: //p[6]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[6]/input
+    priority: 3
+- id: 4bQTr6yFvU2dt69wqDJF1g
+  name: id_state
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#id_state'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='id_state']"
+    priority: 1
+  - name: XPATH
+    value: //p[7]//select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[7]/div/select
+    priority: 3
+- id: M7iGVxNewUWbCetV0f6dOQ
+  name: postcode
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#postcode'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='postcode']"
+    priority: 1
+  - name: XPATH
+    value: //p[8]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[8]/input
+    priority: 3
+- id: SlyQcFAEokGFSrcCKvxhmA
+  name: Country
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#id_country'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='{{country}}']"
+    priority: 1
+  - name: XPATH
+    value: //p[9]//select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[9]/div/select
+    priority: 3
+- id: pc_kFMWhikmwJpMdoaX8QA
+  name: other
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTA
+    name: textarea
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#other'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='other']"
+    priority: 1
+  - name: XPATH
+    value: //textarea
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[10]/textarea
+    priority: 3
+- id: Es1SdT5S5Eqr5qY28DuRpA
+  name: phone
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#phone'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='phone']"
+    priority: 1
+  - name: XPATH
+    value: //p[12]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[12]/input
+    priority: 3
+- id: cM01BasGfU2XNHH_fJI_2Q
+  name: phone_mobile
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#phone_mobile'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='phone_mobile']"
+    priority: 1
+  - name: XPATH
+    value: //p[13]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[2]/p[13]/input
+    priority: 3
+- id: WCN6tFDXJU2wrJVdxFJdMQ
+  name: Register
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Register']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/button/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div/div/form/div[4]/button/span
+    priority: 2
+- id: AFpVn0Cw0U6BU5HKRxsQxw
+  name: Logged In Name
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = '{{randomFirstName}} {{randomLastName}}']
+    priority: 0
+  - name: XPATH
+    value: //nav/div//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a/span
+    priority: 2
+projectParameters: []
 addons:
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: kAy2y3oDuU-OD1ipMDiRPw
+    name: Select options by text
+    description: Select options in {{element}} with text {{text}}
+    className: io.testproject.addons.web.element.select.SelectOptionbyVisibleText
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
 - id: uhFWuHjwpU-gl6uzWR5TXA
   source: Store
   version: 1.1
@@ -3111,19 +3120,6 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: 2734086EE7603B0D1D9D39A270CDB5C500EFF26E65A973871279B1B529E0299C
-- id: hbCjXt9A1EOt4rfQr3FEtw
-  source: Store
-  version: 1.1
-  actions:
-  - id: btvC-oYNPkazg7REct5RWA
-    name: Generate random phone number
-    description: Generate phone number in {{country}}
-    className: io.testproject.RandomNumber
-  minSdkLevel: 2
-  minSdkVersion: 0.62.0
-  sdkGeneration: 1
-  language: Java
-  hash: B05E61D61CD67CF57364977301D8ABCA57628EC2C2DACB215F8DB80C79DD931A
 - id: -kT4Fi1xFk6PF8xkHU4vDg
   source: Store
   version: 2.2
@@ -3141,19 +3137,6 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: B8E84E0F0EE92A1E8BB93EB3C515DB4F0106CAA6087A437A171B1B0191F14F88
-- id: Xey4bVsJQEODIUN7ssaJMg
-  source: Store
-  version: 1.1.9
-  actions:
-  - id: kAy2y3oDuU-OD1ipMDiRPw
-    name: Select options by text
-    description: Select options in {{element}} with text {{text}}
-    className: io.testproject.addons.web.element.select.SelectOptionbyVisibleText
-  minSdkLevel: 2
-  minSdkVersion: 0.63.1
-  sdkGeneration: 1
-  language: Java
-  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
 - id: Mav6joc0AkWwIDSskHVzTQ
   source: Store
   version: 0.14
@@ -3171,3 +3154,16 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: 19104BCF9DF95CE68B689F0C66B05303FBDD596317EE8CFD6E88E4C24CE05CBE
+- id: hbCjXt9A1EOt4rfQr3FEtw
+  source: Store
+  version: 1.1
+  actions:
+  - id: btvC-oYNPkazg7REct5RWA
+    name: Generate random phone number
+    description: Generate phone number in {{country}}
+    className: io.testproject.RandomNumber
+  minSdkLevel: 2
+  minSdkVersion: 0.62.0
+  sdkGeneration: 1
+  language: Java
+  hash: B05E61D61CD67CF57364977301D8ABCA57628EC2C2DACB215F8DB80C79DD931A
